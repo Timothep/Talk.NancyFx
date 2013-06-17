@@ -1,0 +1,29 @@
+* {
+	font-family: verdana;
+	vertical-align: middle; 
+}
+
+div { font-size: 10pt; }
+
+a.header {
+	color: white;
+	vertical-align: top; 
+}
+
+.navbar {
+	margin-right: 100px;
+	background-color: cornflowerblue;
+	font-weight: bold;
+	color: white;
+}
+
+.logo {
+	width:18;
+	height:18;
+	border: 1px #ffffff solid;
+	margin: 1px;
+}
+
+tr { font-size: 8pt; }
+
+.small { font-size: 6pt; }
