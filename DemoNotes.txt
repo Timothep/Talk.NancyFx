@@ -13,7 +13,7 @@ NANCY
 
 - Post["/submit"]: bind submission, SetParameters, return new list + item
 	var newSubmission = this.Bind<Submission>();
-	newSubmission.SetParameters();
+	//newSubmission.SetParameters();
 	return View["list", new List<Submission>(0) {{ newSubmission }}];
 
 => Pray and run
@@ -32,8 +32,8 @@ SIMPLE.DATA
 	db.Submissions.find()
 
 - Get["/"]: chage to query the posts from the DB
-	IEnumerable<Submission> allSubmissions = db.Submissions.All().Cast<Submission>();
-	return View["list", allSubmissions.ToList()];
+	IEnumerable<Submission> submissions = db.Submissions.All().Cast<Submission>();
+    return View["views/list", submissions.ToList()];
 
 - Post["/submit"]: change to redirect
 	return Response.AsRedirect("/");
