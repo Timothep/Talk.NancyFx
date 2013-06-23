@@ -24,7 +24,7 @@ namespace SelfHostingNancy
 	{
 		public MainModule()
 		{
-			Get["/"] = x => "Hello World";
+			Get["/"] = _ => "Hello World";
 		}
 	}
 }
