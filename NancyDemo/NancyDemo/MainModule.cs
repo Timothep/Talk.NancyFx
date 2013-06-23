@@ -8,9 +8,6 @@ namespace NancyDemo
 {
     public class MainModule : NancyModule
     {
-        private const string ConnectionString = @"mongodb://localhost:27017/dotnethn";
-        private dynamic Db = Database.Opener.OpenMongo(ConnectionString);
-
         public MainModule()
         {
             // Root of the application, gather all submissions
