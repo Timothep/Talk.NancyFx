@@ -3,7 +3,6 @@ using System.Dynamic;
 using System.Linq;
 using NetHN.model;
 using Nancy;
-using Nancy.Authentication.Forms;
 using Nancy.Extensions;
 using Simple.Data;
 using Simple.Data.MongoDB;
