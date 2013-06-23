@@ -1,0 +1,40 @@
+﻿@using System.Runtime.Remoting.Contexts
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="content/news.css" />
+<head>
+	<title>Nancy HN Home</title>
+</head>
+<body>
+	<div class="navbar">
+		<img class="logo" src="content/n.gif" >
+		Nancy Hacker News | <a href="secure/submit" class="header">submit</a> | 
+		@if (string.IsNullOrEmpty(Model.username))
+		{	
+			<a href="login" class="header">login</a>
+		}
+		else
+		{
+			@:Logged in as @Model.username | <a href="logout" class="header">logout</a>
+		}
+	</div>
+	<div>
+		<table>
+		@foreach (var item in @Model.items)
+  {
+			<tr>
+				<td>@Model.items.IndexOf(item)</td>
+				<td>
+					<a href="secure/voteup/@item.Id"><img src="content/greyarrow.gif"></a>
+				</td>
+				<td>&nbsp;<a href="@item.Url">@item.Title</a></td>
+				<td>(@item.Source)</td>
+			</tr>
+			<tr class="small"><td></td><td></td>
+				<td class="small">@item.Votes point(s) by @item.User @item.Timestamp hour(s) ago</td>
+			</tr>
+		}
+		</table>
+	</div>
+</body>
+</html>
