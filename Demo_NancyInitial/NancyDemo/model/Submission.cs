@@ -8,7 +8,15 @@
 		private readonly Random rand = new Random(DateTime.Now.Millisecond);
 
 		public string Id { get; set; }
-		private string url;
+		public string Title { get; set; }
+		public string Source { get; set; }
+		public int Votes { get; set; }
+		public string User { get; set; }
+		public long Timestamp { get; set; }
+		public int Origin { get; set; }
+		public string Name { get; set; }
+        
+        private string url;
 		public string Url
 		{
 			get { return url; }
@@ -27,14 +35,6 @@
 				Id = GetNewStringId();
 			}
 		}
-		public string Title { get; set; }
-		public string Source { get; set; }
-		public int Votes { get; set; }
-		public string User { get; set; }
-		public long Timestamp { get; set; }
-		public int Origin { get; set; }
-		public string Name { get; set; }
-
 		/// <summary>
 		/// Fills up the fields that could not be automagically bound
 		/// </summary>
