@@ -4,8 +4,9 @@ Presentation material of the [Nancy](https://github.com/thecodejunkie/Nancy) fra
 
 This material is/was used in various forms at different talks/conferences:
 
-* [.Net UserGroup Franken](https://github.com/Timothep/Talk.NancyFx/blob/master/PDFs/NancyFx.Herbstcampus.2012.pdf?raw=true), Erlangen, September 25th 2012
-* [HerbstCampus](https://github.com/Timothep/Talk.NancyFx/blob/master/PDFs/NancyFx.Herbstcampus.2012.pdf?raw=true), Nürnberg September 6th June 2012
+* [.Net UserGroup Franken](https://github.com/Timothep/Talk.NancyFx/blob/master/PDFs/NancyFx.Herbstcampus.2012.pdf?raw=true), Erlangen, September 25th 2012. Here is [the PDF presented](https://github.com/Timothep/Talk.NancyFx/blob/master/PDFs/NancyFx.Herbstcampus.2012.pdf?raw=true).
+* [HerbstCampus](https://github.com/Timothep/Talk.NancyFx/blob/master/PDFs/NancyFx.Herbstcampus.2012.pdf?raw=true), Nürnberg September 6th June 2012. Here is [the PDF presented](https://github.com/Timothep/Talk.Simple.Data/blob/master/Simple.Data.DDF.2013.pdf?raw=true).
+* [DDC Nürnberg](http://www.developer-week.de/Programm/Veranstaltung/(event)/11175), Nürnberg June 25th June 2013. Here is [the PDF presented](https://github.com/Timothep/Talk.NancyFx/blob/master/PDFs/NancyFx.DWX.2013.pdf?raw=true).
 
 This talk also was used in articles (in German):
 
